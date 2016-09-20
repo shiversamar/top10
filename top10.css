@@ -1,0 +1,91 @@
+.img{
+  max-width: 275px;
+  margin-left: 278px;
+  box-shadow: 5px 5px 5px;
+}
+
+#fortuna {
+  max-height: 150px;
+float: none;
+  box-shadow: 5px 5px 5px;
+  margin-left: 178px;
+}
+
+header {
+  text-align: right;
+
+}
+
+ a:hover {
+  font-size: 24px;
+  color: #00aedb;
+}
+
+p {
+  font-family: ariel;
+
+}
+p::first-letter {
+  font-size: 35px;
+  font-family: cursive;;
+}
+
+table, caption , th {
+  border-style: ridge;
+  border-width: medium;
+  border-color: #8ec127;
+  margin-top: 10px;
+}
+
+td  {
+  border-style: solid;
+  border-width: thin;
+  border-color: #8ec127;
+}
+
+caption {
+  font-weight: bolder;
+}
+#one, #six {
+  background-color: #00aedb;
+}
+#two, #seven {
+  background-color: #a200ff;
+}
+#three, #eight {
+  background-color: #f47835;
+}
+#four, #nine {
+  background-color: #d41243;
+}
+#five, #ten {
+  background-color: #8ec127;
+}
+section {
+  margin-right: 32px;
+}
+li {
+  font-size: 30px;
+  text-align: center;
+}
+
+ol.list {
+  list-style-position: inside;
+}
+ul li {
+  font-size: 20px;
+  text-align: left;
+}
+ul {
+  margin-left:350px;
+  color: #f47835;
+}
+
+h1, h2 {
+  text-align: center;
+  background-color: #f47835;
+  border-style: outset;
+  border-width: medium;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
