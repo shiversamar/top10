@@ -1,16 +1,30 @@
+/*body {
+  margin-left: 10%;
+  margin-right: 10%;
+}*/
+
 .img{
-  max-width: 275px;
-  margin-left: 278px;
+  max-width: 175px;
+  /*margin-left: 278px;*/
   box-shadow: 5px 5px 5px;
+  float: left;
+  margin-right: 10px;
 }
 
 #fortuna {
   max-height: 150px;
-float: none;
+  float: left;
   box-shadow: 5px 5px 5px;
-  margin-left: 178px;
+  margin-right: 10px;
 }
-
+#tenerife {
+  height: 250px;
+  width: 225px;
+  float: left;
+  margin-right: 10px;
+  box-shadow: 5px 5px 5px;
+  margin-bottom: 5px;
+}
 header {
   text-align: right;
 
@@ -23,8 +37,10 @@ header {
 
 p {
   font-family: ariel;
-
+  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
+
 p::first-letter {
   font-size: 35px;
   font-family: cursive;;
@@ -61,9 +77,9 @@ caption {
 #five, #ten {
   background-color: #8ec127;
 }
-section {
+/*section {
   margin-right: 32px;
-}
+}*/
 li {
   font-size: 30px;
   text-align: center;
@@ -71,13 +87,15 @@ li {
 
 ol.list {
   list-style-position: inside;
+  /*margin: 25px;*/
+  padding: 25px;
 }
 ul li {
   font-size: 20px;
   text-align: left;
 }
 ul {
-  margin-left:350px;
+  margin-left:250px;
   color: #f47835;
 }
 
@@ -88,4 +106,9 @@ h1, h2 {
   border-width: medium;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+#testing {
+  border-width: thick;
+  border-color: yellow;
+  border-style: groove;
 }
